@@ -51,7 +51,7 @@
 .header {
     position: relative;
     width: 100%;
-    padding:var(--padding-large) var(--padding-sm);
+    padding: var(--padding-large) var(--padding-sm);
     height: 5rem;
     background-color: var(--clr-whitesmoke);
     box-shadow: 0 0 4px rgb(0 0 0 / 30%);
@@ -112,8 +112,15 @@
     .filter-section {
         display: none;
     }
+    .cart-section {
+        width: 80%;
+        grid-template-columns: 1fr;
+    }
 }
 @media screen and (max-width: 650px) {
+    .title {
+        font-size: 1.5rem;
+    }
     .categ-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -128,5 +135,4 @@
     }
 }
 @media screen and (max-width: 400px) {
-    
 }
