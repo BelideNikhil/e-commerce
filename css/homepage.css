@@ -17,6 +17,7 @@
 }
 .hero-section .header {
     background-color: transparent;
+    box-shadow: none;
 }
 .hero-content {
     height: 70%;
@@ -28,12 +29,6 @@
 }
 .hero-content h2 {
     font-size: 2rem;
-}
-.header-nav-links li {
-    margin: 0 var(--margin-md);
-}
-.header-nav-links li .btn-icon {
-    margin: 0;
 }
 
 /* new arrival cards */
