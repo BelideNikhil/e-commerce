@@ -1,0 +1,21 @@
+.wishlist-section {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: max-content;
+    gap: 1rem;
+}
+
+.wishlist-section .card {
+    max-width: 18rem;
+    height: max-content;
+    place-self: center;
+    cursor: pointer;
+}
+.wishlist-section .card .card-image {
+    height: 14rem;
+}
+.wishlist-section .card .card-body > * {
+    margin: 0;
+}
