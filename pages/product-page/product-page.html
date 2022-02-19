@@ -17,8 +17,8 @@
         <a href="/index.html" class="header-logo">PROJECT <span class="primary-accent">97</span><span class="secondary-accent">X</span></a>
         <nav class="header-nav-links">
             <ul class="flex-row-spc-evenly">
-                <li><a href="#" class="btn-icon btn-icon-primary"><i class="far fa-user"></i><span></span></a></li>
-                <li><a href="#" class="btn-icon btn-icon-primary"><i class="far fa-heart"></i></a></li>
+                <li><a href="#" class="btn-icon btn-icon-primary"><i class="fas fa-user"></i><span></span></a></li>
+                <li><a href="#" class="btn-icon btn-icon-primary"><i class="fas fa-heart"></i></a></li>
                 <li><a href="#" class="btn-icon btn-icon-primary"><i class="fas fa-shopping-cart"></i></a></li>
             </ul>
         </nav>
@@ -27,7 +27,10 @@
     <!--  -->
     <div class="product-grid">
         <aside class="filter-section">
-            <h3>Filters<i class="fas fa-filter"></i></h3>
+            <div class="flex-row-spc-btw">
+                <h3>Filters<i class="fas fa-filter"></i></h3>
+                <a href="#" class="primary-accent">Clear</a>
+            </div>
             <!--  -->
             <hr>
             <div class="filter-content">
@@ -42,11 +45,11 @@
             <hr>
             <div class="filter-content">
                 <h4 class="filter-header">Sort</h4>
-                <label for="sort-by">
+                <label>
                     <input type="radio" name="sort-by" id="">
                     Price Low to High
                 </label>
-                <label for="sort-by">
+                <label>
                     <input type="radio" name="sort-by" id="">
                     Price High to Low
                 </label>
@@ -55,13 +58,13 @@
             <hr>
             <div class="filter-content">
                 <h4 class="filter-header">User Ratings</h4>
-                <label for="rating">
+                <label>
                     <input type="radio" name="rating-input">4 star & above
                 </label>
-                <label for="rating">
+                <label>
                     <input type="radio"  name="rating-input">3 star & above
                 </label>
-                <label for="rating">
+                <label>
                     <input type="radio"  name="rating-input">2 star & above
                 </label>
             </div>
@@ -69,7 +72,7 @@
             <hr>
             <div class="filter-content">
                 <h4 class="filter-header">Categories</h4>
-                <label for="category">
+                <label>
                     <input type="checkbox">Guards
                 </label>
                 <label>
