@@ -1,6 +1,6 @@
 .login-form {
     width: 100%;
-    max-width: 32rem;
+    max-width: 30rem;
     margin: 3rem auto;
     border: 1px solid var(--clr-primary-faded);
     border-radius: 4px;
@@ -23,7 +23,7 @@
     margin-right: var(--margin-sm);
 }
 .login-form > .btn {
+    text-align: center;
     width: 100%;
     margin: 0;
-    text-align: center;
 }

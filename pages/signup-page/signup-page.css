@@ -1,10 +1,10 @@
 .signup-form {
     width: 100%;
-    max-width: 32rem;
-    margin: 3rem auto;
+    max-width: 30rem;
+    margin: auto;
     border: 1px solid var(--clr-primary-faded);
     border-radius: 4px;
-    padding: var(--padding-large);
+    padding: var(--padding-md) var(--padding-large);
     box-shadow: var(--box-shadow-light);
 }
 .signup-form > * {
@@ -26,6 +26,6 @@
 
 .signup-form > .btn {
     width: 100%;
-    margin: 0;
     text-align: center;
+    margin: 0;
 }
