@@ -1,0 +1,13 @@
+.logout-container{
+    width: 100%;
+    max-width: 30rem;
+    margin:8rem auto;
+    text-align: center;
+    padding: var(--padding-md);
+}
+.logout-container>*{
+    margin: var(--margin-md) 0;
+}
+.logout-container .logout-icon i{
+    font-size: 6rem;
+}
