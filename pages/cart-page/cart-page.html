@@ -17,14 +17,24 @@
         <a href="/index.html" class="header-logo">PROJECT <span class="primary-accent">97</span><span class="secondary-accent">X</span></a>
         <nav class="header-nav-links">
             <ul class="flex-row-spc-evenly">
-                <li><a href="#" class="btn btn-primary">Logout</a></li>
-                <li><a href="../wishlist-page/wishlist-page.html" class="btn-icon btn-icon-primary"><i class="fas fa-heart"></i></a></li>
-                <li><a href="./cart-page.html" class="btn-icon btn-icon-primary"><i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="../logout-page/logout.html" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>Logout</a></li>
+                <li>
+                    <div class="badge-container">
+                        <a href="../wishlist-page/wishlist-page.html" class="btn-icon"><i class="fas fa-heart"></i></a>
+                        <span class="badge-icon badge-icon-primary">4</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="badge-container">
+                        <a href="../cart-page/cart-page.html" class="btn-icon"><i class="fas fa-shopping-cart"></i></a>
+                        <span class="badge-icon badge-icon-primary">1</span>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
     <!--  -->
-    <div class="title">My Cart</div>
+    <div class="title">My Cart <small>(1 item)</small></div>
     <div class="cart-section">
         <div class="card card-with-icon horizontal-card">
             <div class="card-image">
@@ -39,7 +49,7 @@
                 </div>
                 <div class="card-quantity">
                     <button class="btn-icon btn-icon-sm"><i class="fas fa-minus"></i></button>
-                    <input type="number" value="2">
+                    <input type="number" value="1">
                     <button class="btn-icon btn-icon-sm"><i class="fas fa-plus"></i></button>
                 </div>
                 <div class="card-pricing"> 
@@ -57,7 +67,7 @@
             <div class="cart-summary">
                 <h4>Price Details</h4>
                 <div class="flex-row-spc-btw">
-                    <div>Cart Total</div>
+                    <div>Cart Total <small>(1 item)</small></div>
                     <div><i class="fas fa-rupee-sign"></i>1500</div>
                 </div>
                 <div class="flex-row-spc-btw">

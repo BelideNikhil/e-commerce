@@ -1,6 +1,6 @@
 .cart-section {
     width: 70%;
-    margin: auto;
+    margin: 6rem auto;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     gap: 2rem;
@@ -51,6 +51,7 @@
 }
 .cart-summary ~ .btn {
     width: 100%;
+    max-width: 32rem;
     margin: var(--margin-sm) 0;
 }
 .apply-coup-btn {

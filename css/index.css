@@ -111,6 +111,10 @@
     .cart-section {
         width: 80%;
         grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .cart-summary ~ .btn {
+        width: 100%;
     }
 }
 @media screen and (max-width: 650px) {
