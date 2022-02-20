@@ -108,13 +108,6 @@
     .categ-card {
         height: 220px;
     }
-    .product-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .filter-section {
-        display: none;
-    }
     .cart-section {
         width: 80%;
         grid-template-columns: 1fr;
@@ -135,6 +128,13 @@
     }
     .header-logo {
         font-size: 1.3rem;
+    }
+    .product-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .filter-section {
+        display: none;
     }
 }
 @media screen and (max-width: 400px) {
