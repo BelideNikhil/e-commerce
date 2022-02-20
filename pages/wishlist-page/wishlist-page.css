@@ -1,6 +1,6 @@
 .wishlist-section {
     width: 70%;
-    margin: auto;
+    margin:2rem auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: max-content;
