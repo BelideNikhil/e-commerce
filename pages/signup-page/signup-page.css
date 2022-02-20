@@ -1,0 +1,31 @@
+.signup-form {
+    width: 100%;
+    max-width: 32rem;
+    margin: 3rem auto;
+    border: 1px solid var(--clr-primary-faded);
+    border-radius: 4px;
+    padding: var(--padding-large);
+    box-shadow: var(--box-shadow-light);
+}
+.signup-form > * {
+    margin: var(--margin-md);
+}
+.signup-form label {
+    font-weight: var(--fw--semi-bold-500);
+}
+.signup-form input {
+    padding: var(--padding-md);
+}
+
+.signup-form input[type="checkbox"] {
+    accent-color: var(--clr-primary);
+    width: 16px;
+    height: 16px;
+    margin-right: var(--margin-sm);
+}
+
+.signup-form > .btn {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}

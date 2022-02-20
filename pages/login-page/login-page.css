@@ -1,0 +1,29 @@
+.login-form {
+    width: 100%;
+    max-width: 32rem;
+    margin: 3rem auto;
+    border: 1px solid var(--clr-primary-faded);
+    border-radius: 4px;
+    padding: var(--padding-large);
+    box-shadow: var(--box-shadow-light);
+}
+.login-form > * {
+    margin: var(--margin-md);
+}
+.login-form label {
+    font-weight: var(--fw--semi-bold-500);
+}
+.login-form input {
+    padding: var(--padding-md);
+}
+.login-form input[type="checkbox"] {
+    accent-color: var(--clr-primary);
+    width: 16px;
+    height: 16px;
+    margin-right: var(--margin-sm);
+}
+.login-form > .btn {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
